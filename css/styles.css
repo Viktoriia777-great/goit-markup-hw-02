@@ -1,20 +1,116 @@
+ /* свойства body */
 body {
+     font-family: Roboto;
+     font-style: normal;
      background-color: #FFFFFF;
      color: #757575;
     }
+ /* убрать точки у всех списках */
 ul{
-        list-style: none;
-    }  
+     list-style: none;
+    }
+ /* свойства для все ссылок */
+a{
+     color:inherit;
+     text-decoration: none;
+    }
+ /* Logo */
 .logo{
-     color: #2196F3 ;
+     font-family: Raleway;
+     font-weight: bold;
+     font-size: 26px;
+     line-height: 1,192;
+     color: #212121;
 }
+.logo-web{
+     color: #2196F3;
+ 
+}.active {
+     color: #2196F3;
+  }
+/* Sait-nav */
 .sait-nav .link{
      color: #212121;
 }
 .sait-nav .link:hover, 
 .sait-nav .link:focus{
-    color: #2196F3;
+     color: #2196F3;
+} 
+/* Sait-contacts */
+.sait-contacts .mail{
+     color:  #757575;    
+} 
+.sait-contacts .phone{
+     color: #757575;
 }
+.sait-contacts .mail:hover,
+.sait-contacts .mail:focus{
+     color:#2196F3;
+}
+.sait-contacts .phone:hover,
+.sait-contacts .phone:focus{
+     color:#2196F3;
+}
+ /* Hero */
+ .hero{
+     background-color: #2F303A;
+ }
+ .hero .title{        
+     font-weight: 900;
+     font-size: 44px;
+     line-height: 1,363;
+     text-align: center;
+     letter-spacing: 0.06em;
+     text-transform: uppercase;
+      color: #FFFFFF;
+ }
+ 
+ .hero .service{
+     font-weight: bold;
+     font-size: 16px;
+     line-height: 1,875;
+ }
+ 
+
+ 
+      
+/* для цвета кнопки
+ position: absolute;
+ width: 136px;
+ height: 30px;
+ left: 732px;
+ top: 440px;
+
+ 
+ 
+ font-weight: bold;
+ font-size: 16px;
+ line-height: 1,875;
+
+
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
+
+color: #FFFFFF;*/
+
+
+/* для кнопки
+position: absolute;
+width: 200px;
+height: 50px;
+left: 700px;
+top: 430px;
+
+background: #2196F3;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
+*/
+
+
+
+ 
 
 
 
@@ -24,4 +120,5 @@ ul{
 /* основной цвет текста  #757575; */
 /* цвет фона #F5F4FA; */
 /* цвет кнопок, лого #2196F3; */
-/* цвет основного фона #FFFFFF; */
+/* цвет основного фона #FFFFFF; 
+background: #2F303A;*/
