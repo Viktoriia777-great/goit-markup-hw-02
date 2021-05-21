@@ -1,3 +1,11 @@
+ :root{
+  --main-color-headers: #212121;
+  --main-text-color:  #757575;
+  --white-color: #FFFFFF;
+  --section-bg-buttons: #F5F4FA;
+  --color-button-logo: #2196F3;
+  --hero-background: #2F303A;
+ } 
  /* свойства body */
 body {
      font-family: Roboto;
@@ -13,13 +21,14 @@ ul{
 a{
      color:inherit;
      text-decoration: none;
+     font-style: normal;          
     }
  /* Logo */
 .logo{
      font-family: Raleway;
      font-weight: bold;
      font-size: 26px;
-     line-height: 1,192;
+     line-height: 1.192;
      color: #212121;
 }
 .logo-web{
@@ -55,58 +64,99 @@ a{
  .hero{
      background-color: #2F303A;
  }
- .hero .title{        
+ .hero .title{  
      font-weight: 900;
      font-size: 44px;
-     line-height: 1,363;
+     line-height: 1.363;
      text-align: center;
      letter-spacing: 0.06em;
      text-transform: uppercase;
-      color: #FFFFFF;
+     color: #FFFFFF;
  }
- 
- .hero .service{
+   /* кнопка Заказать услугу */
+ .button{
      font-weight: bold;
      font-size: 16px;
-     line-height: 1,875;
+     line-height: 1.875;
+     padding: 10px 32px;
+     margin: auto;
+     background: #2196F3;
+     color: #FFFFFF;
+     display: flex;
+     align-items: center;
+     text-align: center;
+     letter-spacing: 0.06em;   
+     width: 200px;
+     height: 50px;
+     left: 700px;
+     top: 430px;  
+     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+     border-radius: 4px;     
+     border: none; 
+    }
+    /* Особенности */
+ .feature-title{
+     font-weight: bold;
+     font-size: 14px;
+     line-height: 1.172;
+     letter-spacing: 0.03em;
+     text-transform: uppercase;
+     color: #212121;
+    }
+ .feature-text{
+     font-weight: normal;
+     font-size: 14px;
+     line-height: 1.714; 
+     letter-spacing: 0.03em;    
+     color: #757575;
  }
- 
+ /* Чем занимаемся */
+ .title{
+     font-weight: bold;
+     font-size: 36px;
+     line-height: 1.172;
+     text-align: center;
+     letter-spacing: 0.03em;
+     color: #212121;
+      }
+ /* Команда */
+ .team-member{
+     font-weight: 500;
+     font-size: 16px;
+     line-height: 1.188;       
+     letter-spacing: 0.03em;    
+     color: #212121;
+ }
+ .team-next{
+     font-weight: normal;
+     font-size: 16px;
+     line-height: 19px;
+     letter-spacing: 0.03em;
+     color: #757575;
+ }
+ /* Контакты */
+ .contacts{
+     font-weight: normal;
+     font-size: 14px;
+     line-height: 1.714;     
+     letter-spacing: 0.03em; 
+     background: #2F303A; 
+     color: rgba(255, 255, 255, 0.6);
+ }
+ .contacts .contacts-adress{
+    color: #FFFFFF;
+ }
+ .contacts .logo{
+     color: #FFFFFF;
+ }
+
+
+     
+
 
  
       
-/* для цвета кнопки
- position: absolute;
- width: 136px;
- height: 30px;
- left: 732px;
- top: 440px;
 
- 
- 
- font-weight: bold;
- font-size: 16px;
- line-height: 1,875;
-
-
-display: flex;
-align-items: center;
-text-align: center;
-letter-spacing: 0.06em;
-
-color: #FFFFFF;*/
-
-
-/* для кнопки
-position: absolute;
-width: 200px;
-height: 50px;
-left: 700px;
-top: 430px;
-
-background: #2196F3;
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-border-radius: 4px;
-*/
 
 
 
@@ -116,9 +166,3 @@ border-radius: 4px;
 
  
 
-/* основной цвет заголовков #212121; */
-/* основной цвет текста  #757575; */
-/* цвет фона #F5F4FA; */
-/* цвет кнопок, лого #2196F3; */
-/* цвет основного фона #FFFFFF; 
-background: #2F303A;*/
