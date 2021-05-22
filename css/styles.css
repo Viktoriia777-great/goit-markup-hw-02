@@ -2,152 +2,145 @@
   --main-color-headers: #212121;
   --main-text-color:  #757575;
   --white-color: #FFFFFF;
-  --section-bg-buttons: #F5F4FA;
+  /* --section-bg-buttons: #F5F4FA; */
   --color-button-logo: #2196F3;
   --hero-background: #2F303A;
  } 
  /* свойства body */
 body {
-     font-family: Roboto;
-     font-style: normal;
-     background-color: #FFFFFF;
-     color: #757575;
+      font-family: Roboto;
+      font-style: normal;
+      background-color: var(--white-color);
+      color: var(--main-text-color);
     }
  /* убрать точки у всех списках */
 ul{
-     list-style: none;
+      list-style: none;
     }
  /* свойства для все ссылок */
 a{
-     color:inherit;
-     text-decoration: none;
-     font-style: normal;          
+      color:inherit;
+      text-decoration: none;
+      font-style: normal;          
     }
  /* Logo */
 .logo{
-     font-family: Raleway;
-     font-weight: bold;
-     font-size: 26px;
-     line-height: 1.192;
-     color: #212121;
+      font-family: Raleway;
+      font-weight: bold;
+      font-size: 26px;
+      line-height: 1.192;
+      color: var(--main-color-headers);
 }
 .logo-web{
-     color: #2196F3;
+      color: var(--color-button-logo);
  
 }.active {
-     color: #2196F3;
+      color: var(--color-button-logo);
   }
 /* Sait-nav */
 .sait-nav .link{
-     color: #212121;
+      color: var(--main-color-headers);
 }
 .sait-nav .link:hover, 
 .sait-nav .link:focus{
-     color: #2196F3;
+      color: var(--color-button-logo);
 } 
-/* Sait-contacts */
-.sait-contacts .mail{
-     color:  #757575;    
-} 
-.sait-contacts .phone{
-     color: #757575;
-}
+
 .sait-contacts .mail:hover,
 .sait-contacts .mail:focus{
-     color:#2196F3;
+      color: var(--color-button-logo);
 }
 .sait-contacts .phone:hover,
 .sait-contacts .phone:focus{
-     color:#2196F3;
+      color: var(--color-button-logo);
 }
  /* Hero */
  .hero{
-     background-color: #2F303A;
+      background-color: var(--hero-background);
  }
  .hero .title{  
-     font-weight: 900;
-     font-size: 44px;
-     line-height: 1.363;
-     text-align: center;
-     letter-spacing: 0.06em;
-     text-transform: uppercase;
-     color: #FFFFFF;
+      font-weight: 900;
+      font-size: 44px;
+      line-height: 1.363;
+      text-align: center;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      color: var(--white-color);
  }
    /* кнопка Заказать услугу */
  .button{
-     font-weight: bold;
-     font-size: 16px;
-     line-height: 1.875;
-     padding: 10px 32px;
-     margin: auto;
-     background: #2196F3;
-     color: #FFFFFF;
-     display: flex;
-     align-items: center;
-     text-align: center;
-     letter-spacing: 0.06em;   
-     width: 200px;
-     height: 50px;
-     left: 700px;
-     top: 430px;  
-     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-     border-radius: 4px;     
-     border: none; 
-    }
+      font-weight: bold;
+      font-size: 16px;
+      line-height: 1.875;
+      padding: 10px 32px;
+      margin: auto; 
+      background: var(--color-button-logo);
+      color: var(--white-color);
+      display: flex;    
+      width: 200px;
+      height: 50px;
+      left: 700px;
+      top: 430px;  
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+      border-radius: 4px;     
+      border: none; 
+}
+     .button:hover,
+     .button:focus{
+      color: var(--white-color);
+}
     /* Особенности */
  .feature-title{
-     font-weight: bold;
-     font-size: 14px;
-     line-height: 1.172;
-     letter-spacing: 0.03em;
-     text-transform: uppercase;
-     color: #212121;
-    }
+      font-weight: bold;
+      font-size: 14px;
+      line-height: 1.172;
+      letter-spacing: 0.03em;
+      text-transform: uppercase;
+      color: var(--main-color-headers);
+}
  .feature-text{
-     font-weight: normal;
-     font-size: 14px;
-     line-height: 1.714; 
-     letter-spacing: 0.03em;    
-     color: #757575;
- }
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 1.714; 
+      letter-spacing: 0.03em;   
+}
  /* Чем занимаемся */
  .title{
-     font-weight: bold;
-     font-size: 36px;
-     line-height: 1.172;
-     text-align: center;
-     letter-spacing: 0.03em;
-     color: #212121;
-      }
+      font-weight: bold;
+      font-size: 36px;
+      line-height: 1.172;
+      text-align: center;
+      letter-spacing: 0.03em;
+      color: var(--main-color-headers);
+}
  /* Команда */
  .team-member{
-     font-weight: 500;
-     font-size: 16px;
-     line-height: 1.188;       
-     letter-spacing: 0.03em;    
-     color: #212121;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 1.188;       
+      letter-spacing: 0.03em;    
+      color: var(--main-color-headers);
  }
  .team-next{
-     font-weight: normal;
-     font-size: 16px;
-     line-height: 19px;
-     letter-spacing: 0.03em;
-     color: #757575;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 19px;
+      letter-spacing: 0.03em;    
  }
  /* Контакты */
  .contacts{
-     font-weight: normal;
-     font-size: 14px;
-     line-height: 1.714;     
-     letter-spacing: 0.03em; 
-     background: #2F303A; 
-     color: rgba(255, 255, 255, 0.6);
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 1.714;     
+      letter-spacing: 0.03em; 
+      background: var(--hero-background);
+      color: rgba(255, 255, 255, 0.6);
  }
  .contacts .contacts-adress{
-    color: #FFFFFF;
+      color: var(--white-color);
  }
  .contacts .logo{
-     color: #FFFFFF;
+      color: var(--white-color);
  }
 
 
