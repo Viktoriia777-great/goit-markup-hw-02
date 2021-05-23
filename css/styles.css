@@ -2,10 +2,16 @@
   --main-color-headers: #212121;
   --main-text-color:  #757575;
   --white-color: #FFFFFF;
-  /* --section-bg-buttons: #F5F4FA; */
+  /* --filter-bg-buttons: #F5F4FA; */
   --color-button-logo: #2196F3;
   --hero-background: #2F303A;
       } 
+ *{
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      list-style: none;
+ }
   /* свойства body */
  body {
       font-family: Roboto;
@@ -13,12 +19,9 @@
       background-color: var(--white-color);
       color: var(--main-text-color);
       }
- /* убрать точки у всех списках */
- ul{
-      list-style: none;
-      }
+ 
       /* свойства для все ссылок */
- a{
+ .link{
       color:inherit;
       text-decoration: none;
       font-style: normal;          
@@ -34,25 +37,17 @@
  .logo-web{
       color: var(--color-button-logo);
       }
- .active {
+ .sait-nav .active {
       color: var(--color-button-logo);
       }
       /* Sait-nav */
- .sait-nav .link{
+  .link{
       color: var(--main-color-headers);
-      }
- .sait-nav .link:hover, 
- .sait-nav .link:focus{
-      color: var(--color-button-logo);
       } 
- .mail:hover,
- .mail:focus{
+ .link:hover, 
+ .link:focus{
       color: var(--color-button-logo);
-      }
- .phone:hover,
- .phone:focus{
-      color: var(--color-button-logo);
-      }
+      }       
       /* Hero */
  .hero{
       background-color: var(--hero-background);
@@ -127,34 +122,23 @@
       letter-spacing: 0.03em;    
       }
       /* Контакты */
- .contacts{
+ .footer{
       font-weight: normal;
       font-size: 14px;
       line-height: 1.714;     
       letter-spacing: 0.03em; 
       background: var(--hero-background);
       color: rgba(255, 255, 255, 0.6);
-      }
- .contacts .contacts-adress{
+ }
+ .footer .logo{
       color: var(--white-color);
-      }
- .contacts .logo{
+ }
+ .footer .mail{
+      color:  rgba(255, 255, 255, 0.6);
+ }
+ .footer .phone{
+      color:  rgba(255, 255, 255, 0.6);  
+ }
+ .footer .contacts{
       color: var(--white-color);
-      }
-
-
-     
-
-
- 
-      
-
-
-
-
- 
-
-
-
- 
-
+ }
