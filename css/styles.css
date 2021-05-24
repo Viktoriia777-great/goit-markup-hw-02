@@ -2,10 +2,9 @@
   --main-color-headers: #212121;
   --main-text-color:  #757575;
   --white-color: #FFFFFF;
-  --team-filter-bg: #F5F4FA; 
+  --team-filter-btn-bg: #F5F4FA; 
   --color-button-logo: #2196F3;
-  --hero-footer-background: #2F303A;
-  --feature-portfolio-bg: #E5E5E5;
+  --hero-footer-background: #2F303A; 
   --footer-logo-mail: rgba(255, 255, 255, 0.6);
 
       }      
@@ -41,11 +40,7 @@
       }
  .sait-nav .active {
       color: var(--color-button-logo);
-      }
-      /* Sait-nav */
-  /* .link{
-      color: var(--main-color-headers);
-      }  */
+      }      
  .link:hover, 
  .link:focus{
       color: var(--color-button-logo);
@@ -85,10 +80,7 @@
  .button:focus{
       color: var(--white-color);
       }
-      /* Особенности */
- .feature{
-       background: var(--feature-portfolio-bg);
-  }    
+      /* Особенности*/ 
  .feature-title{
       font-weight: bold;
       font-size: 14px;
@@ -104,6 +96,9 @@
       letter-spacing: 0.03em;   
       }
       /* Чем занимаемся */
+ .work{
+       background: var(--feature-portfolio-work-bg);
+ }
  .title{
       font-weight: bold;
       font-size: 36px;
@@ -114,7 +109,7 @@
       }
        /* Команда */
  .team{
-      background: var(--team-filter-bg);
+      background: var(--team-filter-btn-bg);
  }
  .team-member{
       font-weight: 500;
@@ -160,14 +155,11 @@
       line-height: 1.625;
       text-align: center;
       letter-spacing: 0.03em;
-      background: var(--team-filter-bg);
-       color: var(--maiheadersn-color-);
+      background: var(--team-filter-btn-bg);
+       color: var(--main-color-headers);
      cursor: pointer;     
   }
-  /* Проекты */
-  .portfolio{
-       background: var(--feature-portfolio-bg);
-  }
+  /* Проекты */ 
  .portfolio-item{
       font-weight: bold;
       font-size: 18px;
