@@ -189,8 +189,9 @@
   .filter .active{
       font-family: Roboto;
       font-style: normal; 
-       background: var(--color-button-logo);
-       color: var(--white-color);
+      background: var(--color-button-logo);
+      color: var(--white-color);
+      cursor: pointer;
   }
   .btn{
       font-family: Roboto;
