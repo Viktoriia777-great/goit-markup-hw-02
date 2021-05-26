@@ -187,14 +187,14 @@
  }
   /* Выбор проектов */
   .filter .active{
-       width: 73px;
-       height: 38px;
+      font-family: Roboto;
+      font-style: normal; 
        background: var(--color-button-logo);
        color: var(--white-color);
   }
   .btn{
-      width: 128px;
-      height: 38px;
+      font-family: Roboto;
+      font-style: normal;
       font-weight: 500;
       font-size: 16px;
       line-height: 1.625;
