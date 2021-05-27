@@ -183,7 +183,11 @@
       color:  var(--footer-phone-mail);
  }
  .contacts{  
-      color: var(--white-color);
+      color: var(--white-color); 
+ }
+ .footer .link:hover,
+ .footer .link:focus{
+      color: var(--color-button-logo);
  }
   /* Выбор проектов */
   .filter .active{
