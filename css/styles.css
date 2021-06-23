@@ -450,7 +450,7 @@
        
  .footer .conteiner{ 
       display: flex;  
-      align-items: baseline;
+      align-items: baseline;     
       padding-top: 60px;
       padding-bottom: 60px;        
  }
@@ -481,7 +481,7 @@
      height: 20px; 
     
 }
- .footer-social .list-social{
+ .footer-social {
     display: inline-flex;
     justify-content: center;
     align-items: center;
@@ -550,6 +550,8 @@
  }
  .subscribe{
       display: flex;
+      justify-content: space-between;
+      
  }
 .title-subscribe{
      margin-bottom: 20px;
@@ -561,8 +563,9 @@
     color: var(--white-color);
     text-transform: uppercase;
 }
-.subscribe input{
-     width: 340px;
+.subscribe-email{
+     display: flex;
+     width: 358px;
      height: 50px;
      margin-bottom: 94px;
      padding-left: 16px;
@@ -574,19 +577,20 @@
 }
 
   .btn-subscribe{
-       display: flex;
-       align-items: center;
-     font-size: 16px;
+      display: flex;
+      align-items: center;
+      font-size: 16px;
       line-height: 1.875;
       letter-spacing: 0.06em;
       text-align: justify;
       cursor: pointer;
+      border: none;
+      outline: none;
       border-radius: 4px;
       background-color: var(--color-button-logo);
       color: var(--white-color);
-       padding-left: 28px;
-       margin-left: 12px;
-    
+      padding-left: 28px;
+      margin-left: 12px;    
       width: 200px;
       height: 50px;      
       
@@ -799,6 +803,7 @@
      color: var(--main-color-headers);
  }
 .form-input{
+    
      width: 390px;
      height: 12px;
      margin-top: 4px;
