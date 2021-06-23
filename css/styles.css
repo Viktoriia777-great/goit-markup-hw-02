@@ -216,7 +216,7 @@
       text-transform: uppercase;
       color: var(--white-color);
       margin: 0 auto; 
-      padding-bottom: 30px;                     
+      margin-bottom: 30px;                     
  }
  /* кнопка Заказать услугу */
 
@@ -261,6 +261,7 @@
      height: 120px;
      background: #F5F4FA;
       border-radius: 4px;
+      margin-bottom: 30px;
 }
  .feature .content{
      display: flex; 
@@ -272,8 +273,9 @@
   .feature ul{
       display: flex;      
  }
-
- /* Особенности*/ 
+ .columns{
+     display: flex;
+ }
  .feature-title{
       font-weight: bold;
       font-size: 14px;
@@ -282,8 +284,7 @@
       text-transform: uppercase;
       color: var(--main-color-headers);
       margin-bottom: 10px;
-      margin-top: 30px;
-      
+      /* margin-top: 30px;       */
  }
  .feature-text{
       width: 270px;
@@ -291,7 +292,6 @@
       font-size: 14px;
       line-height: 1.714; 
       letter-spacing: 0.03em; 
-      
  }
 
       /* Чем занимаемся */
@@ -314,7 +314,7 @@
       justify-content: center;  
       align-items: center;
       bottom: 0;        
-      width: 370px;
+      width: 100%;
       height: 70px;
       background: rgba(47, 48, 58, 0.8);
     
@@ -418,7 +418,7 @@
      width: 106px;
      height: 60px;
      align-items: center;
-     margin: 16px 32px;
+     /* margin: 16px 32px; */
      border: none;    
 }
    .client-list  {
@@ -450,6 +450,7 @@
        
  .footer .conteiner{ 
       display: flex;  
+      align-items: baseline;
       padding-top: 60px;
       padding-bottom: 60px;        
  }
@@ -573,6 +574,8 @@
 }
 
   .btn-subscribe{
+       display: flex;
+       align-items: center;
      font-size: 16px;
       line-height: 1.875;
       letter-spacing: 0.06em;
@@ -606,14 +609,10 @@
      align-items: center;
      width: 24px;
      height: 24px;
-     margin-left: 10px;
-             
-     
+     margin-left: 10px;                  
  } 
-
-  /* Выбор проектов */
-  
-  .btn{
+  /* Выбор проектов */  
+.btn{
       font-family: Roboto;
       font-style: normal;
       font-weight: 500;
@@ -629,26 +628,25 @@
       border: none;
       border-radius: 4px;  
        transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  }
-  .btn:hover, 
-  .btn:focus{
+}
+.btn:hover, 
+.btn:focus{
      background-color: var(--color-button-logo);
      color: var(--white-color);
      box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);   
  } 
-  .filter{
+.filter{
       margin-bottom: 50px; 
-  }
-
-  /* Проекты */ 
-  .portfolio {
+}
+/* Проекты */ 
+.portfolio {
        padding-top: 94px;
        padding-bottom: 94px;
-  }
-  .portfolio .filter {
+}
+.portfolio .filter {
        display: flex;
        justify-content: center;                       
-  }
+}
   .project {
        padding: 0;
        margin: 0;
